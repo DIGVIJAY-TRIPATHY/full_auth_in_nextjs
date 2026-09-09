@@ -101,7 +101,7 @@ export default async function UserProfile({ params }: any) {
 
                 {/* Footer */}
                 <p className="text-center text-xs text-gray-600 mt-6">
-                    StudyHub • User Profile
+                    Next.js full-stack authentication system. • User Profile
                 </p>
 
             </div>

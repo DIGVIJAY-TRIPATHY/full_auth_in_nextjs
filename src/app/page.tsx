@@ -7,11 +7,11 @@ export default function Home() {
         {/* Logo / Brand */}
         <div className="text-center mb-10">
           <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-600 shadow-lg shadow-blue-600/20">
-            <span className="text-2xl font-bold">S</span>
+            <span className="text-2xl font-bold">N</span>
           </div>
 
           <h1 className="text-4xl font-bold tracking-tight">
-            StudyHub
+            Next.js full-stack authentication system.
           </h1>
 
           <p className="mt-3 text-gray-400">
@@ -22,7 +22,7 @@ export default function Home() {
         {/* Main Card */}
         <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6 shadow-2xl">
           <h2 className="text-xl font-semibold text-center">
-            Welcome to StudyHub
+            Welcome to Next.js full-stack authentication system.
           </h2>
 
           <p className="mt-2 text-center text-sm text-gray-400">
@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Footer */}
         <p className="mt-8 text-center text-xs text-gray-600">
-          StudyHub • Digital Learning Platform
+          Next.js full-stack authentication system. • Digital Learning Platform
         </p>
       </div>
     </main>

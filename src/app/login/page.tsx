@@ -43,7 +43,7 @@ export default function LoginPage() {
                 {/* Logo / Brand */}
                 <div className="text-center mb-8">
                     <div className="mx-auto mb-4 w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center">
-                        <span className="text-white text-xl font-bold">S</span>
+                        <span className="text-white text-xl font-bold">N</span>
                     </div>
 
                     <h1 className="text-3xl font-bold text-white">
@@ -51,7 +51,7 @@ export default function LoginPage() {
                     </h1>
 
                     <p className="mt-2 text-sm text-gray-400">
-                        Login to continue to StudyHub
+                        Login to continue to Next.js full-stack authentication system.
                     </p>
                 </div>
 
@@ -132,7 +132,7 @@ export default function LoginPage() {
 
                 {/* Footer */}
                 <p className="text-center text-xs text-gray-600 mt-6">
-                    © {new Date().getFullYear()} StudyHub
+                    © {new Date().getFullYear()} Next.js full-stack authentication system.
                 </p>
             </div>
         </div>
