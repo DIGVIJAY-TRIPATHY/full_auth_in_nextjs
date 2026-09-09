@@ -38,6 +38,14 @@ export async function POST(request: NextRequest) {
             );
         }
 
+        const isVerified = user.isVerified;
+        if (!isVerified) {
+            return NextResponse.json(
+                { message: "Please verify your email before logging in" },
+                { status: 400 },
+            );
+        }
+
         //create token Data
         const tokenData = {
             id: user._id,
